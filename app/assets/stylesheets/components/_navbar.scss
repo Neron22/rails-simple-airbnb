@@ -1,0 +1,27 @@
+.navbar-lewagon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 12px;
+  h4 {
+    margin: 0px;
+  }
+  a {
+  color: #a3cdf5;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #a3cdf5;
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px rgb(228, 228, 228);
+  cursor: pointer;
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}

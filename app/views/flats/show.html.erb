@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class ="d-flex justify-content-center m-5"><%= @flat.name %></h1>
+
+  <ul class="list-unstyled">
+      <li><%= @flat.address %></li>
+      <li><%= @flat.description %></li>
+      <li><%= @flat.price_per_night %></li>
+      <li><%= @flat.number_of_guests %></li>
+  </ul>
+
+  <br>
+  <br>
+
+  <%= link_to 'Back', flats_path %> |
